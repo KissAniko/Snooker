@@ -96,7 +96,7 @@ namespace Snooker
                .GroupBy(v => v.Orszag)
                .ToDictionary(g => g.Key, g => g.Count());
 
-            // Display the statistics
+           
             Console.WriteLine("\nStatisztika2:");
             foreach (var fo2 in versenyzokSzamaOrszagonkent2)
             {
